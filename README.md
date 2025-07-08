@@ -1,26 +1,26 @@
 # statdata_analyzer
 
-#Create build directory
-mkdir build &&cd build
+#Create build directory  
+`mkdir build &&cd build`
 
-#Configure and build
-cmake.
-.make
+#Configure and build  
+`cmake..`  
+`make`
 
-#Run main utility
-./statdata_analyzer file1.bin file2.bin output.bin
+#Run main utility  
+`./statdata_analyzer file1.bin file2.bin output.bin`
 
-#Tests
-cd test
+#Tests  
+`cd test`
 
-#Run test utility
-./system_test
+#Run test utility  
+`./system_test`
 
-#Run test utility
-./unit_tests
+#Run test utility  
+`./unit_tests`
 
-#Run all tests
-ctest -V
+#Run all tests  
+`ctest -V`
 
 
 Некоторые заменания:
